@@ -1,0 +1,18 @@
+# SQLite Databases & Raw Data
+*.db
+*.csv
+
+# Lecture source code folders
+src0/
+src1/
+src2/
+src3/
+**/src*/
+
+# Lecture PDFs and Transcripts
+*.pdf
+*transcript*.txt
+
+# OS metadata
+.DS_Store
+Thumbs.db

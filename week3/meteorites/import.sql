@@ -1,0 +1,21 @@
+-- In import.sql, write a series of SQL (and SQLite) statements to import and clean meteorites.csv
+-- into a table "meteorites" in "meteorites.db".
+
+-- Requirements:
+-- 1. Create a temporary table "meteorites_temp" and use .import to load meteorites.csv into it.
+-- 2. Clean the data:
+--    - Replace empty strings with NULL (columns: mass, year, lat, long).
+--    - Round decimal columns (mass, lat, long) to 2 decimal places.
+--    - Exclude all meteorites with nametype = 'Relict'.
+-- 3. Create the final "meteorites" table with columns:
+--    - id (INTEGER PRIMARY KEY AUTOINCREMENT)
+--    - name (TEXT)
+--    - class (TEXT)
+--    - mass (NUMERIC)
+--    - discovery (TEXT CHECK in ('Fell', 'Found'))
+--    - year (NUMERIC)
+--    - lat (NUMERIC)
+--    - long (NUMERIC)
+-- 4. Insert data from "meteorites_temp" sorted by year ASC, then name ASC.
+--    (Ensure id begins at 1 and increases sequentially based on that sort order).
+
