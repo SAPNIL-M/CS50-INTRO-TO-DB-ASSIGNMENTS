@@ -13,7 +13,7 @@ My solutions and problem set implementations for Harvard's [CS50 SQL](https://cs
 ### Week 1: Relating
 - [x] **Packages, Please** (`week1/packages/`)
 - [x] **DESE** (`week1/dese/`)
-- [ ] **Moneyball** (`week1/moneyball/`) *(In Progress)*
+- [x] **Moneyball** (`week1/moneyball/`)
 
 ### Week 2: Designing
 - [x] **ATL** (`week2/atl/`)

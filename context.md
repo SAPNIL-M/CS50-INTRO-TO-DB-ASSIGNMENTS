@@ -19,9 +19,10 @@ This workspace contains Harvard's **CS50 SQL (Databases with SQL)** course mater
 ## 3. What Has Been Done So Far
 - **Week 0: Querying** — **COMPLETE**
   - All queries solved and verified in `cyberchase`, `normals`, `players`, and `views`.
-- **Week 1: Relating** — **IN PROGRESS**
+- **Week 1: Relating** — **COMPLETE**
   - Completed: `week1/packages/` (all 3 mysteries solved and logged in `log.sql` and `answers.txt`).
   - Completed: `week1/dese/` (queries 1–12 solved and verified; 13 skipped).
+  - Completed: `week1/moneyball/` (all 12 queries solved and verified).
 - **Week 2: Designing** — **COMPLETE**
   - All schemas designed, validated, and databases created:
     - `week2/atl/schema.sql` -> `atl.db`
@@ -29,12 +30,8 @@ This workspace contains Harvard's **CS50 SQL (Databases with SQL)** course mater
     - `week2/donuts/schema.sql` -> `donuts.db` (verified clean relations and composite keys).
 
 ## 4. What Is Left To Do
-1. **Week 1: Relating (CURRENT TASK)**:
-   - `week1/packages/`: Detective mystery tracing 3 lost packages via JOINs (`log.sql` & `answers.txt`).
-   - `week1/dese/`: 13 SQL queries on Massachusetts schools, districts, and expenditures.
-   - `week1/moneyball/`: 12 SQL queries on baseball statistics and salaries.
-2. **Week 3: Writing (UP NEXT)**:
-   - `week3/meteorites/import.sql`: Import `meteorites.csv` via staging table, clean data, and sort.
-   - `week3/dont-panic/hack.sql`: Password update, log erasure, and decoy logs.
-3. **Future Weeks**:
+1. **Week 3: Writing (CURRENT TASK)**:
+   - `week3/meteorites/import.sql`: Import `meteorites.csv` via staging table, clean nulls/round decimals, filter out 'Relict', sort by year/name into `meteorites.db`.
+   - `week3/dont-panic/hack.sql`: Password update, log erasure, and decoy log insertion against SQLite triggers.
+2. **Future Weeks**:
    - Week 4 (Viewing), Week 5 (Optimizing), Week 6 (Scaling), Final Project.
